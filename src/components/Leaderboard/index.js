@@ -62,8 +62,8 @@ const Leaderboard = () => {
   }, [])
 
   const renderFailureView = () => {
-   const {errorMsg} = apiResponse
-return <ErrorMessage>{errorMsg}</ErrorMessage>
+    const {errorMsg} = apiResponse
+    return <ErrorMessage>{errorMsg}</ErrorMessage>
   }
 
   const renderSuccessView = () => {
